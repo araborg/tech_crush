@@ -35,3 +35,5 @@ const customerOrder = {
 	quantity: quantity,
 	totalPrice: totalPrice,
 };
+
+// Task 5: Print the Results
