@@ -27,3 +27,11 @@ console.log(isAdult);
 // Check if the book price is equal to 5000.
 const isBookFiveThousand = bookPrice === 5000;
 console.log(isBookFiveThousand);
+
+// Task 4: Use a Non-Primitive Data Type
+const customerOrder = {
+	customerName: customerName,
+	bookTitle: bookTitle,
+	quantity: quantity,
+	totalPrice: totalPrice,
+};
