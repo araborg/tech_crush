@@ -37,3 +37,5 @@ const customerOrder = {
 };
 
 // Task 5: Print the Results
+console.log(customerOrder.customerName);
+console.log(customerOrder.totalPrice);
