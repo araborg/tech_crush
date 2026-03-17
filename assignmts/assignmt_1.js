@@ -13,3 +13,8 @@ const isStudent = true;
 
 const totalPrice = bookPrice * quantity;
 console.log(totalPrice);
+
+// Task 3: Use Comparison Operators
+if (customerAge > 18) {
+	console.log("You are older than 18 years");
+}
