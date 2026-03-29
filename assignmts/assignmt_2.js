@@ -1,10 +1,3 @@
-/*
-- Given const str = "Nigeria is awesome";
-- Extract "Nigeria" using substring().
-- Extract "awesome" using slice().
-- Get "is" using slice().
-
-*/
 // Que: 1
 
 const str = "Nigeria is awesome";
