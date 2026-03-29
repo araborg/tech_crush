@@ -1,0 +1,19 @@
+1. Substring & Slice
+- Given const str = "Nigeria is awesome";
+- Extract "Nigeria" using substring().
+- Extract "awesome" using slice().
+- Get "is" using slice().
+
+2. Split
+- Given const names = "John,Jane,Doe";
+- Split into an array using comma ,.
+- Join with space instead: "John Jane Doe".
+- Given const path = "/user/home/docs";
+- Split by / → ["", "user", "home", "docs"]
+- Get "home" using split & index.
+
+3. Mix
+- Given const email = "user@example.com";
+- Get username (user) using split().
+- Check if it's a .com domain using endsWith().
+- Replace @ with AT using replace().
