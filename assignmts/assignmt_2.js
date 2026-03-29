@@ -2,12 +2,15 @@
 
 const str = "Nigeria is awesome";
 
+// Extract "Nigeria" using substring().
 const nigeria = str.substring(0, 7);
 console.log(nigeria);
 
+// Extract "awesome" using slice().
 const awesome = str.slice(-7);
 console.log(awesome);
 
+// Get "is" using slice().
 const is = str.slice(-10, -7);
 console.log(is);
 
