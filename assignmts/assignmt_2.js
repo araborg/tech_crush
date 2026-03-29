@@ -34,4 +34,7 @@ const path = "/user/home/docs";
 const splitedPath = path.split("/");
 console.log(splitedPath);
 
+const home = path.split("/")[2];
+console.log(home);
+
 // Que: 3
