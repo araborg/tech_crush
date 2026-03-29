@@ -28,14 +28,18 @@ const home = path.split("/")[2];
 console.log(home);
 
 // Que: 3
-/*- Given 
-- Get username (user) using split().
-- Check if it's a .com domain using endsWith().
-- Replace @ with AT using replace().
-*/
+/*- Given
+ */
 const email = "user@example.com";
+
+// Get username (user) using split().
 const username = email.split("@")[0];
 console.log(username);
 
+// Check if it's a .com domain using endsWith().
 const isDotCom = email.endsWith(".com");
 console.log(isDotCom);
+
+// Replace @ with AT using replace().
+const replaceAt = email.replace("@", "AT");
+console.log(replaceAt);
