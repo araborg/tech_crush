@@ -14,22 +14,25 @@ console.log(is);
 // Que: 2
 const names = "John,Jane,Doe";
 
+// Split into an array using comma ,.
 const arrNames = names.split(",");
 console.log(arrNames);
 
+// Join with space instead: "John Jane Doe".
 const strNames = arrNames.join(" ");
 console.log(strNames);
 
 const path = "/user/home/docs";
+
+// Split by / → ["", "user", "home", "docs"]
 const splitedPath = path.split("/");
 console.log(splitedPath);
 
+// Get "home" using split & index.
 const home = path.split("/")[2];
 console.log(home);
 
-// Que: 3
-/*- Given
- */
+// Ques: 3
 const email = "user@example.com";
 
 // Get username (user) using split().
