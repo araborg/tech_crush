@@ -6,4 +6,7 @@ const str = "Nigeria is awesome";
 - Get "is" using slice().
 
 */
-console.log(str);
+
+const nigeria = str.substring(0, 6);
+
+console.log(nigeria);
