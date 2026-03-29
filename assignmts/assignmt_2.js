@@ -12,5 +12,18 @@ const is = str.slice(-10, -7);
 console.log(is);
 
 // Que: 2
+/*
+
+2. Split
+- Given 
+- Split into an array using comma ,.
+- Join with space instead: "John Jane Doe".
+- Given const path = "/user/home/docs";
+- Split by / → ["", "user", "home", "docs"]
+- Get "home" using split & index.
+*/
+const names = "John,Jane,Doe";
+const arrNames = names.split(",");
+console.log(arrNames);
 
 // Que: 3
