@@ -1,4 +1,3 @@
-const str = "Nigeria is awesome";
 /*
 - Given const str = "Nigeria is awesome";
 - Extract "Nigeria" using substring().
@@ -6,7 +5,9 @@ const str = "Nigeria is awesome";
 - Get "is" using slice().
 
 */
+const str = "Nigeria is awesome";
 
-const nigeria = str.substring(0, 6);
+const nigeria = str.substring(0, 7);
+const awesome = str.slice(-1, -7);
 
-console.log(nigeria);
+console.log(awesome);
