@@ -23,7 +23,15 @@ console.log(is);
 - Get "home" using split & index.
 */
 const names = "John,Jane,Doe";
+
 const arrNames = names.split(",");
 console.log(arrNames);
+
+const strNames = arrNames.join(" ");
+console.log(strNames);
+
+const path = "/user/home/docs";
+const splitedPath = path.split("/");
+console.log(splitedPath);
 
 // Que: 3
