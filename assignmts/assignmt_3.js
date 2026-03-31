@@ -6,4 +6,4 @@ numbers.forEach((number) => console.log(number * 2));
 // Que: 2
 const names = ["Esther", "John", "Ada", "Mike"];
 
-names.forEach((names) => console.log("Hello " + names));
+names.forEach((names) => console.log("Hello " + names + "!"));
