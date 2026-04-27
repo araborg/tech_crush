@@ -15,8 +15,13 @@ scalable server-side code
 cors:
 npm install cors
 
-In Node.js, developers typically use the cors middleware for Express to manage these permissions and avoid "CORS errors" when the frontend and backend are hosted on different URLs.
+In Node.js, developers typically use the cors middleware 
+for Express to manage these permissions and avoid 
+"CORS errors" when the frontend and backend are hosted 
+on different URLs.
 
+const cors = require("cors")
 
+app.use(cors())
 
 */
