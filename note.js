@@ -12,7 +12,7 @@ and the principles of writing clean,
 scalable server-side code
 
 
-cors:
+cors: cross origin resource sharing
 npm install cors
 
 In Node.js, developers typically use the cors middleware 
