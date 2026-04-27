@@ -20,8 +20,11 @@ for Express to manage these permissions and avoid
 "CORS errors" when the frontend and backend are hosted 
 on different URLs.
 
-const cors = require("cors")
+const express = require('express');
+const cors = require('cors');
+const app = express();
 
-app.use(cors())
+app.use(cors()); // Allows all origins to access your API
+
 
 */
