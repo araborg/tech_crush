@@ -1,5 +1,4 @@
 /*
-Questions: 
 Assignment Topic: Analysis of HTTP Status Codes
 
 Select two status codes from each of the five HTTP status 
@@ -15,6 +14,9 @@ For example, you may choose status codes such as 200 (OK) and
 Your discussion should demonstrate a clear understanding of how
 these status codes facilitate communication between clients and 
 servers in web applications.
+
+
+=================================================================
 
 1xx - The 1xx status codes are Informational responses in the 
 Hypertext Transfer Protocol (HTTP). They indicate that a request 
@@ -34,6 +36,7 @@ it has to query several databases.
 
 
 2xx — Success
+
 200 OK: Standard success response. 
 Used for successful GET, PUT, PATCH, and DELETE.
 The Scenario: A user navigates to their profile page or searches for a 
@@ -44,7 +47,8 @@ POST.
 The Scenario: A new user signs up or a customer places a new order.
 
 
-3xx -
+3xx - Redirection messages
+
 301 & 308 Permanent Moves:
 These codes tell browsers and search engines that a page has a new 
 permanent home. 
@@ -56,7 +60,9 @@ This is a standard design pattern used to prevent users from
 accidentally resubmitting forms. 
 The Scenario: A customer clicks "Buy Now" on an e-commerce site.
 
+
 4xx — Client Errors
+
 400 Bad Request: 
 The request was malformed or missing required fields.
 The Scenario: A user submits a registration form but leaves out a 
@@ -70,6 +76,7 @@ a login modal
 
 
 5xx — Server Errors
+
 500 Internal Server Error: 
 Something went wrong on the server. Generic catch-all for unhandled 
 errors.
