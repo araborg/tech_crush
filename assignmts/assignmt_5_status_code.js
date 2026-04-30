@@ -62,14 +62,19 @@ The request was malformed or missing required fields.
 The Scenario: A user submits a registration form but leaves out a 
 required "Email" field, or sends an invalid JSON object to an API.
 
+401 Unauthorized: 
+Authentication is required but was not provided or is invalid.
+Scenario: A user tries to view their "Settings" page without logging 
+in. The server sends a 401, usually triggering the frontend to show 
+a login modal
 
-401 Unauthorized: Authentication is required but was not provided or is invalid.
-403 Forbidden: Authenticated but not permitted to access the resource.
-404 Not Found: The requested resource does not exist.
 
 5xx — Server Errors
-500 Internal Server Error: Something went wrong on the server. Generic catch-all for unhandled errors.
-
+500 Internal Server Error: 
+Something went wrong on the server. Generic catch-all for unhandled 
+errors.
+The Scenario: A bug in your code, like trying to access a property 
+of null or a database query failing because of a syntax error.
 
 1xx, 2xx, 3xx, 4xx, and 5xx
 */
