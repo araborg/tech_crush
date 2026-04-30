@@ -1,8 +1,19 @@
 /*
 Assignment Topic: Analysis of HTTP Status Codes
-Select two status codes from each of the five HTTP status code categories (1xx, 2xx, 3xx, 4xx, and 5xx), making a total of ten status codes. For each selected status code, provide a detailed explanation that includes its meaning, typical use cases, and how it is applied in real-world web development scenarios.
-For example, you may choose status codes such as 200 (OK) and 201 (Created) from the 2xx success category.
-Your discussion should demonstrate a clear understanding of how these status codes facilitate communication between clients and servers in web applications.
+
+Select two status codes from each of the five HTTP status 
+code categories (1xx, 2xx, 3xx, 4xx, and 5xx), making a total 
+of ten status codes. For each selected status code, provide 
+a detailed explanation that includes its meaning, typical use 
+cases, and how it is applied in real-world web development 
+scenarios.
+
+For example, you may choose status codes such as 200 (OK) and 
+201 (Created) from the 2xx success category.
+
+Your discussion should demonstrate a clear understanding of how
+these status codes facilitate communication between clients and 
+servers in web applications.
 
 
 What are Status Codes?
