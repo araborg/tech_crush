@@ -51,8 +51,18 @@ permanent home.
 The Scenario: You migrate your blog from blog.example.com to 
 example.com, or you move your site from HTTP to HTTPS.
 
+303 "Post-Redirect-Get" Pattern:
+This is a standard design pattern used to prevent users from 
+accidentally resubmitting forms. 
+The Scenario: A customer clicks "Buy Now" on an e-commerce site.
+
 4xx — Client Errors
-400 Bad Request: The request was malformed or missing required fields.
+400 Bad Request: 
+The request was malformed or missing required fields.
+The Scenario: A user submits a registration form but leaves out a 
+required "Email" field, or sends an invalid JSON object to an API.
+
+
 401 Unauthorized: Authentication is required but was not provided or is invalid.
 403 Forbidden: Authenticated but not permitted to access the resource.
 404 Not Found: The requested resource does not exist.
