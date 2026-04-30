@@ -1,4 +1,5 @@
 /*
+Questions: 
 Assignment Topic: Analysis of HTTP Status Codes
 
 Select two status codes from each of the five HTTP status 
@@ -15,24 +16,50 @@ Your discussion should demonstrate a clear understanding of how
 these status codes facilitate communication between clients and 
 servers in web applications.
 
+1xx - The 1xx status codes are Informational responses in the 
+Hypertext Transfer Protocol (HTTP). They indicate that a request 
+has been received and the server is continuing the process.
 
-What are Status Codes?
+101 Switching Protocols: 
+The server agrees to the client's request to switch to a different 
+protocol (e.g., from HTTP to WebSockets).
+The Scenario: A user opens a live chat app or a real-time stock 
+ticker.
 
-HTTP status codes are three-digit numbers returned by the server in the response. They tell the client whether the request was successful, redirected, or caused an error. Always set the correct status code — it is part of the API contract.
+103 Early Hints: 
+Allows the browser to start preloading resources (like CSS or JavaScript) 
+while the server is still preparing the main response. 
+The Scenario: A complex dashboard that takes 500ms to generate because 
+it has to query several databases.
+
 
 2xx — Success
+200 OK: Standard success response. 
+Used for successful GET, PUT, PATCH, and DELETE.
+The Scenario: A user navigates to their profile page or searches for a 
+product.
 
-200 OK: Standard success response. Used for successful GET, PUT, PATCH, and DELETE.
-201 Created: Resource was successfully created. Use after a successful POST.
-204 No Content: Success but no data to return. Common after a DELETE operation.
+201 Created: Resource was successfully created. Use after a successful 
+POST.
+The Scenario: A new user signs up or a customer places a new order.
+
+
+3xx -
+301 & 308 Permanent Moves:
+These codes tell browsers and search engines that a page has a new 
+permanent home. 
+The Scenario: You migrate your blog from blog.example.com to 
+example.com, or you move your site from HTTP to HTTPS.
+
 4xx — Client Errors
-
 400 Bad Request: The request was malformed or missing required fields.
 401 Unauthorized: Authentication is required but was not provided or is invalid.
 403 Forbidden: Authenticated but not permitted to access the resource.
 404 Not Found: The requested resource does not exist.
-5xx — Server Errors
 
+5xx — Server Errors
 500 Internal Server Error: Something went wrong on the server. Generic catch-all for unhandled errors.
 
+
+1xx, 2xx, 3xx, 4xx, and 5xx
 */
