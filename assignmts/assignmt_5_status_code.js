@@ -76,5 +76,12 @@ errors.
 The Scenario: A bug in your code, like trying to access a property 
 of null or a database query failing because of a syntax error.
 
-1xx, 2xx, 3xx, 4xx, and 5xx
+504 Gateway Timeout (Integration Timeouts): 
+The server was acting as a gateway and didn't get a response from 
+the upstream server in time. 
+Scenario: Your API needs to fetch data from a third-party service 
+(like a slow payment processor or a legacy database), and that 
+service takes too long to reply.
+
+
 */
