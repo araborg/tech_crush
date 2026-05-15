@@ -27,4 +27,9 @@ const app = express();
 app.use(cors()); // Allows all origins to access your API
 
 
+Sm dependencies:
+npm i express cors mongoose dotenv multer cloudinary bcrypt
+
+
+
 */
